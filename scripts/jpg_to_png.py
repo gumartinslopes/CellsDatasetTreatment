@@ -23,9 +23,9 @@ def jpg_to_png(input_dir, output_dir):
                 print(f"{input_path} convertido para PNG.")
 
 # Diretório de entrada (onde estão as imagens JPEG)
-input_directory = "./CellsDataset/original"
+input_directory = "../NegativeMasksJpg"
 # Diretório de saída (onde as imagens PNG serão salvas)
-output_directory = "./CellsDataset/new_original"
+output_directory = "../NegativeMasks"
 
 # Chama a função para converter as imagens
 jpg_to_png(input_directory, output_directory)
